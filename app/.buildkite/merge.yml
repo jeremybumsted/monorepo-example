@@ -14,7 +14,7 @@ steps:
 
   - block: ":rocket: Release to Production"
 
-  - label: "Deploy to production"
+  - label: "Deploy to production INDEED"
     trigger: "bar-service-deploy"
     build:
       env:
